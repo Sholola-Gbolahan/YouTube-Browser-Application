@@ -1,0 +1,22 @@
+div{
+   
+    padding:20px;
+}
+
+.video-con{
+    display:flex;
+    
+}
+.videoDetails-con{
+    width:60%; 
+   
+}
+
+.videoList-con{
+   width:40%; 
+   
+}
+
+.ui .segment{
+    margin:0;
+}
