@@ -8,15 +8,24 @@ div{
     
 }
 .videoDetails-con{
-    width:60%; 
+    width:65%; 
    
 }
 
 .videoList-con{
-   width:40%; 
+   width:35%; 
    
 }
 
 .ui .segment{
     margin:0;
+}
+
+.video-item{
+    display: flex;
+    align-items: center;
+}
+
+.video-Item.item img{
+    max-width:
 }

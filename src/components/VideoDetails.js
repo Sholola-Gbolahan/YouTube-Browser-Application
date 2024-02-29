@@ -1,9 +1,25 @@
-import React from 'react'
+import React from "react";
 
-const VideoDetails = () => {
+const VideoDetails = ({ video }) => {
+  if (!video) {
+    return <div>Loading!!!!</div>;
+  }
+
+  console.log(video);
+  const videoID = `https://www.youtube.com/embed/${video.id.videoId}`
+
   return (
-    <div>VideoDetails</div>
-  )
-}
+    <div>
+      <div className="ui embed">
+        <iframe src={videoID} allowFullScreen ></iframe>
 
-export default VideoDetails
+      </div>
+      <div className="ui segment">
+        <h1>{video.snippet.title}</h1>
+        <p>{video.snippet.description}</p>
+      </div>
+    </div>
+  );
+};
+
+export default VideoDetails;
