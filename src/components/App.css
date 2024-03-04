@@ -1,20 +1,13 @@
-div{
-   
-    padding:20px;
+ .video-con{
+    display:flex;  
 }
 
-.video-con{
-    display:flex;
-    
-}
 .videoDetails-con{
-    width:65%; 
-   
+    width:65%;    
 }
 
 .videoList-con{
    width:35%; 
-   
 }
 
 .ui .segment{
@@ -22,10 +15,12 @@ div{
 }
 
 .video-item{
-    display: flex;
+    display: flex !important;
     align-items: center;
+    cursor:pointer;
 }
 
-.video-Item.item img{
-    max-width:
+.video-item.item img{
+    max-width: 180px;
+
 }
