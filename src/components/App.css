@@ -1,22 +1,26 @@
-div{
-   
-    padding:20px;
+ .video-con{
+    display:flex;  
 }
 
-.video-con{
-    display:flex;
-    
-}
 .videoDetails-con{
-    width:60%; 
-   
+    width:65%;    
 }
 
 .videoList-con{
-   width:40%; 
-   
+   width:35%; 
 }
 
 .ui .segment{
     margin:0;
+}
+
+.video-item{
+    display: flex !important;
+    align-items: center;
+    cursor:pointer;
+}
+
+.video-item.item img{
+    max-width: 180px;
+
 }
